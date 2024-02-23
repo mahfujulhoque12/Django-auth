@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block body %}
+<div class="card">
+    <div class="card-body">
+        <a href="{% url 'signup' %}" class="btn btn-info">SignUp</a>
+       <a href="{% url 'loginUser' %}" class="btn btn-warning">Login</a>
+    </div>
+</div>
+{% endblock body %}
+
